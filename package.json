@@ -1,12 +1,23 @@
 {
   "name": "atomic-bohr-model",
   "version": "0.0.1",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
   "dependencies": {
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.67.1",
+    "@react-three/fiber": "^8.13.0",
+    "@types/three": "^0.152.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "three": "^0.152.2",
+    "three-stdlib": "^2.21.11"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
+    "buffer": "^5.7.1",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   }
