@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import {  useFrame } from "@react-three/fiber";
+
 import * as THREE from "three";
 import Atom from "./Atom";
 import { usePosition } from "./usePosition";
